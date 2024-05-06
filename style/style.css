@@ -108,14 +108,52 @@ a.white {
 
 /* heart */
 
-.heart {
+div.heart {
     background-color: white;
     color: black;
     position: absolute;
     top: 0;
     right: 0;
-    padding: 15px;
+    padding: 5px 10px;
     margin-top: 20px;
+}
+
+span.heart {
+    font-size:35px;
+}
+
+/* label flex */
+
+.labelFlex {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+}
+
+/* discount */
+
+div.discount {
+    background-color: red;
+    padding: 2px 10px;
+}
+
+label.discount {
+    color: white;
+    height: 20px;
+}
+
+/* eco */
+
+div.green {
+    background-color: green;
+    padding: 2px 10px;
+}
+
+label.green {
+    color: white;
+    height: 20px;
 }
 
 /* brand rules */
