@@ -78,8 +78,9 @@ a.white {
 /* products rules */
 
 .product {
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
     width: 32%;
     /* background-color: grey; */
 }
@@ -105,13 +106,23 @@ a.white {
     display: inline-block;
 }
 
+/* heart */
+
+.heart {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    margin-top: 20px;
+}
+
 /* brand rules */
 
 .brandText {
     font-size: 15px;
 }
-
-/* product info */
 
 /* price */
 
