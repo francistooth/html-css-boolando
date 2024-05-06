@@ -68,30 +68,36 @@ a.white {
     width: 70%;
     margin: 0 auto;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
     flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 /* products rules */
 
-.product {
+/* .product {
     display: flex;
     flex-direction: column;
+    width: 32%;
+} */
 
+.product {
+    display: flex;
+    min-height: 700px;
+    width: 32%;
+    background-color: grey;
 }
 
 /* product image rules */
 
-.productImgDiv {
-    
-}
+
 
 /* footer rules */
 
 footer {
     width: 100%;
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
