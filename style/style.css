@@ -1,6 +1,81 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Abel';font-size: 22px;
 }
 
+/* header rules */
+
+header {
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #ff6900;
+    height: 80px;
+}
+
+/* hNav rules */
+
+.hNav {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+/* header text rules */
+
+a.white {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+/* logo rules */
+
+.logo {
+    width: 10%;
+}
+
+/* header utils rules */
+
+.hUtils {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+/* main rules */
+
+.catalogue {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* products rules */
+
+/* product image rules */
+
+
+
+/* footer rules */
+
+/* fNav rules */
+
+.fNav {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
