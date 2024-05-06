@@ -6,6 +6,10 @@
     font-family: 'Abel';font-size: 22px;
 }
 
+.noDeco {
+    text-decoration: none;
+}
+
 /* header rules */
 
 header {
@@ -35,15 +39,20 @@ header {
 
 a.white {
     color: white;
-    text-decoration: none;
     font-weight: bold;
     padding-right: 10px;
 }
 
 /* logo rules */
 
+.logoAnchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo {
-    width: 10%;
+    width: 20%;
 }
 
 /* header utils rules */
@@ -51,7 +60,6 @@ a.white {
 .hUtils {
     color: white;
     padding-left: 10px;
-    text-decoration: none;
 }
 
 /* main rules */
@@ -66,16 +74,82 @@ a.white {
 
 /* products rules */
 
+.product {
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* product image rules */
 
-
+.productImgDiv {
+    
+}
 
 /* footer rules */
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 20px 0px;
+}
 
 /* fNav rules */
 
 .fNav {
     width: 70%;
     margin: 0 auto;
-    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* legal info */
+
+.references {
+    display: flex;
+    flex-direction: column;
+}
+
+h3.white {
+    color: white;
+    padding: 0;
+}
+
+a.white.fAnchor {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* contacts */
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsText {
+    color: white;
+    font-size: 15px;
+}
+
+/* footer icons */
+
+.fIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fIconContainer > a {
+    color: white;
+    padding: 10px;
 }
